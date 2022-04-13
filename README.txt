@@ -24,4 +24,4 @@ we need to generate a ssh keys with option -C "email used to log in github" in o
 run ssh key-gen -t 56678 -C "email"
 this will generate a file with 2 keys, a private and a public one,,you need to copy the public one in your github account setting regarding ssh .
 and your are done
-
+now we try changes to add some lines to this files and trying to push it again 
