@@ -23,5 +23,26 @@ other simplest and efficient  way is to ssh from your machine to github:
 we need to generate a ssh keys with option -C "email used to log in github" in on local machine:
 run ssh key-gen -t 56678 -C "email"
 this will generate a file with 2 keys, a private and a public one,,you need to copy the public one in your github account setting regarding ssh .
-and your are done
-now we try changes to add some lines to this files and trying to push it again 
+and your are done.
+-now you can clone a repository from github to your machine:
+    ----git clone "url of the repository"
+ or you can create one :
+    ----git init "noame of repo"
+ to add a file :
+    ----git add "filename"
+ to commit changes:
+    ---git commit
+to update your repo in the github you need to push those changes:
+    ---git push "url of the repo"
+the git log command is powerful to show all history and changes of repo and commit:
+  git log --oneline   ;show changes of one commit
+  git log --stat      ;show more details of the commits like by who,when ,and number of insertion
+  git log --patch     ;so detailed ,test added and moved
+  
+  
+  
+  
+    
+    
+    
+
